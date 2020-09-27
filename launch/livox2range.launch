@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="range_image" type="livox2range_node" pkg="livox2range" output="screen" respawn="false"></node>
+    <node name="rviz" pkg="rviz" type="rviz"  required="true" />  
+</launch>

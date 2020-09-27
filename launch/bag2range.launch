@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+<!-- rosbag folder -->
+<param name="input_bag_path" value="/home/chunran/zcr/data/rosbag/"/>
+<!-- path to save new pcd files -->
+<param name="output_pcd_path" value="/home/chunran/zcr/data/pcd/"/>
+<!-- path to save new range files -->
+<param name="output_range_path" value="/home/chunran/zcr/data/depth1/"/>
+<!-- path to save new range files -->
+<param name="output_range_path2" value="/home/chunran/zcr/data/depth2/"/>
+
+<!-- the limit of messages to transfer to the pcd file, 80 means maximum 80 messages of lidar -->
+<param name="threshold_lidar" type="int" value="100"/>
+
+<!-- the number of the rosbag -->
+<param name="data_num" type="int" value="1"/>
+
+<node pkg="livox2range" name="bag2pcd2range" type="bag2pcd2range" output="screen"/>
+</launch>
