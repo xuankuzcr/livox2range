@@ -1,0 +1,2 @@
+aiimooc_syz:ddynamic_reconfigure:livox2range
+-DCATKIN_DEVEL_PREFIX=/home/chunran/livox2range/devel -DCMAKE_INSTALL_PREFIX=/home/chunran/livox2range/install -G Unix Makefiles

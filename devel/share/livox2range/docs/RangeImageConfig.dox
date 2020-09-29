@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~ang_res_x" : \b [double] resolution in  x-direction min: 0.05, default: 0.03, max: 10.0
+- \b "~ang_res_y" : \b [double] resolution in  y-direction min: 0.05, default: 0.28, max: 10.0
+- \b "~max_ang_w" : \b [double] angle bounds of the sensor in width min: 0.0, default: 81.7, max: 81.7
+- \b "~max_ang_h" : \b [double] angle bounds of the sensor in height min: 0.0, default: 25.1, max: 25.1
+- \b "~theta_ViewPort" : \b [double] angle of convert PointCloud to RangeImage min: 0.0, default: 0.0, max: 81.7
+

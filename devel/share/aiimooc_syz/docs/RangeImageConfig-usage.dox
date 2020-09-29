@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="range_image" pkg="aiimooc_syz" type="range_image">
+  <param name="ang_res_x" type="double" value="0.03" />
+  <param name="ang_res_y" type="double" value="0.28" />
+  <param name="max_ang_w" type="double" value="81.7" />
+  <param name="max_ang_h" type="double" value="25.1" />
+  <param name="theta_ViewPort" type="double" value="0.0" />
+</node>
+\endverbatim
+
