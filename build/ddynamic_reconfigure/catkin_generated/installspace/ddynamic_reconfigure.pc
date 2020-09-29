@@ -1,8 +1,0 @@
-prefix=/home/chunran/livox2range/install
-
-Name: ddynamic_reconfigure
-Description: Description of ddynamic_reconfigure
-Version: 0.3.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lddynamic_reconfigure
-Requires: roscpp dynamic_reconfigure
